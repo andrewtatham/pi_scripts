@@ -1,5 +1,5 @@
 #!/bin/bash
-cd twitterpibot/
+cd ~/twitterpibot/
 while true
 do
 	sudo pkill -f Main.py
