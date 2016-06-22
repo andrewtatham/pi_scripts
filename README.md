@@ -9,8 +9,22 @@ A collection of scripts to
 * clone twitterpibot
 
 
+
+Assumes
+git is installed if not run 
+sudo apt-get install git
+
+you know the ip address
+hostname -I
+
+hostname has been set if not e.g. 
+sudo hostname raspberrypi2
+
+
+
 Usage
-From a fresh install of raspbian (assumes git is installed)
+
+From a fresh install of raspbian 
 
 git clone https://github.com/andrewtatham/raspberry_pi_scripts.git
 cd raspberry_pi_scripts/
