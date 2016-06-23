@@ -9,7 +9,7 @@ do
 	sleep 1
 	git status
 	sleep 1
-	sudo pip3 install --upgrade -r requirements.txt
+	pip3 install --upgrade -r requirements.txt
 	sleep 1
 	sudo python main.py
 	sleep 1
