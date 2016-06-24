@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt-get install -y vsftpd tightvncserver 
+sudo apt-get install -y vsftpd tightvncserver autocutsel
