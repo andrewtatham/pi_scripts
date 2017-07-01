@@ -1,0 +1,1 @@
+du -h | grep "[0-9]M" | sort -n -r
