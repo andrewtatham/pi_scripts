@@ -7,5 +7,3 @@ sudo pip3 install sqlalchemy
 cd ~
 git clone https://github.com/andrewtatham/twitterpibot.git
 cd ~/twitterpibot
-virtualenv twitterpibot
-source twitterpibot/bin/activate

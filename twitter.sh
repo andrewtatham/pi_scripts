@@ -1,6 +1,5 @@
 #!/bin/bash
 cd ~/twitterpibot/
-source twitterpibot/bin/activate
 while true
 do
 	sudo pkill -f main.py
@@ -11,6 +10,6 @@ do
 	sleep 1
 	pip3 install --upgrade -r requirements.txt
 	sleep 1
-	sudo python main.py
+	sudo python3 main.py
 	sleep 1
 done
