@@ -1,39 +1,39 @@
 # raspberry_pi_scripts
 
 A collection of scripts to
-* install and configure FTP server
-* install and configure VNC server
-* configure GIT
-* clone twitterpibot
-* install twitterpibot dependencies
-* run twitterpibot
 
+* update raspberry pi packages
+* install and run my various projects
 
-# Assumes
-git is installed if not run 
+## Assumes
+
+git is installed if not run
 sudo apt-get install git
 
 you know the ip address
 hostname -I
 
-hostname has been set if not e.g. 
+hostname has been set if not e.g.
+
 sudo hostname raspberrypi2
 
+## Usage
 
+From a fresh install of raspbian...
 
-# Usage
-From a fresh install of raspbian... 
-```
-git clone https://github.com/andrewtatham/raspberry_pi_scripts.git
-cd raspberry_pi_scripts/
-sudo chmod +x *
-./init_all.sh
-```
+```git clone https://github.com/andrewtatham/pi_scripts.git
+cd pi_scripts/
+sudo chmod +x *.sh```
 
-vncserver will want a password
+then...
 
-Reboot your system...
-```
-sudo reboot now
-```
+```./update.sh``` updates
 
+Or as a single line
+
+```curl https://raw.githubusercontent.com/andrewtatham/pi_scripts/master/update.sh | bash```
+
+# Init / run the cube
+
+```curl https://raw.githubusercontent.com/andrewtatham/pi_scripts/master/cube/init.sh | bash
+curl https://raw.githubusercontent.com/andrewtatham/pi_scripts/master/cube/run.sh | bash ```
